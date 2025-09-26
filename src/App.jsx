@@ -6,8 +6,13 @@ function App() {
 
   return (
     <>
-      <Titulo/>
-      <Board />
+      
+      <section className='ui'>
+        <Titulo/>
+        <div className='jogo'>
+          <Board />
+        </div>
+      </section>
     </>
   )
 }

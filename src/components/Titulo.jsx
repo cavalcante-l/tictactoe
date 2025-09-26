@@ -1,6 +1,6 @@
 export default function Titulo(){
 
     return(
-        <h1>JOGO DA VELHA</h1>
+        <h1>Jogo da velha</h1>
     )
 }
