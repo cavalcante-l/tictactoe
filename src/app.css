@@ -6,24 +6,24 @@
 .ui {
   display: flex;
   flex-direction: column;
-  align-items: center; /* centraliza horizontalmente */
-  justify-content: center; /* centraliza verticalmente */
-  min-height: 100vh; /* ocupa toda a tela */
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
 
   background-image: url('./assets/SemTítulo-1.webp');
 
   background-repeat: no-repeat;
-  background-size: contain; /* imagem inteira visível */
-  background-position: center; /* centraliza */
+  background-size: contain; 
+  background-position: center; 
   z-index: 0;
-  padding: 170px; /* espaço interno */
+  padding: 170px; 
 }
 .ui h1 {
   position: absolute;
-  top: 17.5%;        /* ajusta a posição vertical */
+  top: 17.5%;
   right: 38.5%;
   font-size: 28px;
-  color: #3f3f3f;    /* ou branco se quiser contraste */
+  color: #3f3f3f;
 }
 
 .jogo{
@@ -32,7 +32,7 @@
   color: #3f3f3f;
 }
 
-/* quadrados ficam acima da imagem */
+
 .square {
   z-index: 1;
   color: #3f3f3f;
@@ -116,8 +116,8 @@
   margin: 2px;
   font-size: 2.5rem;
   font-weight: bold;
-  color: white; /* cor do X ou O */
-  text-shadow: 2px 2px 4px black; /* deixa mais visível */
+  color: white; 
+  text-shadow: 2px 2px 4px black; 
   
   }
   .board-row {
